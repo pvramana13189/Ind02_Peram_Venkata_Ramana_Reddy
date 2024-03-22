@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ind02_Peram_Venkata_Ramana_Reddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peram Venkata Ramana Reddy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LGg-hS-xVa">
+                                <rect key="frame" x="26" y="75" width="341" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slide Puzzle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DnS-TU-rol">
+                                <rect key="frame" x="122.33333333333333" y="124" width="150.66666666666669" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" systemColor="systemPurpleColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F0s-1c-pwk" userLabel="Full Image">
+                                <rect key="frame" x="10" y="184" width="372" height="462"/>
+                                <color key="backgroundColor" systemColor="lightTextColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-00" translatesAutoresizingMaskIntoConstraints="NO" id="IZQ-yD-I2f">
+                                <rect key="frame" x="10" y="184" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="J7M-h7-Aee" appends="YES" id="uJ0-JX-PsG"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-01" translatesAutoresizingMaskIntoConstraints="NO" id="A4z-5E-dEc">
+                                <rect key="frame" x="103" y="184" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AHh-Nn-onG" appends="YES" id="kwR-np-FKH"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-02" translatesAutoresizingMaskIntoConstraints="NO" id="PJ5-y4-668">
+                                <rect key="frame" x="196" y="184" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ei1-fV-y4k" appends="YES" id="UPf-U2-MrS"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-03" translatesAutoresizingMaskIntoConstraints="NO" id="Cag-IB-eYR">
+                                <rect key="frame" x="289" y="184" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gfM-Wy-e1e" appends="YES" id="FU4-ff-AxF"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-10" translatesAutoresizingMaskIntoConstraints="NO" id="rdT-De-L1g">
+                                <rect key="frame" x="10" y="276" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="7FY-U4-fWM" appends="YES" id="9Gh-5u-L10"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-11" translatesAutoresizingMaskIntoConstraints="NO" id="Qld-uO-FhK">
+                                <rect key="frame" x="103" y="276" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AMu-ef-wV4" appends="YES" id="tI8-5h-dk7"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-12" translatesAutoresizingMaskIntoConstraints="NO" id="iMw-x7-lcb">
+                                <rect key="frame" x="196" y="276" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jLt-F1-8WA" appends="YES" id="4NV-rK-wVr"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-13" translatesAutoresizingMaskIntoConstraints="NO" id="O76-tw-rpF">
+                                <rect key="frame" x="289" y="276" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="cmi-kV-Ivh" appends="YES" id="UmV-OF-xX9"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-20" translatesAutoresizingMaskIntoConstraints="NO" id="yOa-pm-nAI">
+                                <rect key="frame" x="10" y="370" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ZmW-TU-ULn" appends="YES" id="1sr-AC-k2D"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-21" translatesAutoresizingMaskIntoConstraints="NO" id="anz-U9-3oc">
+                                <rect key="frame" x="103" y="370" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Gah-BL-L9Q" appends="YES" id="RnQ-9i-CjR"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-22" translatesAutoresizingMaskIntoConstraints="NO" id="Zkp-Xe-yTN">
+                                <rect key="frame" x="196" y="370" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lGw-I5-bvX" appends="YES" id="EQ4-Uc-6nY"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-23" translatesAutoresizingMaskIntoConstraints="NO" id="mbJ-ht-rrg">
+                                <rect key="frame" x="289" y="370" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Bzy-Ge-Dja" appends="YES" id="q6r-rQ-x50"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-30" translatesAutoresizingMaskIntoConstraints="NO" id="0HB-Q4-IWi">
+                                <rect key="frame" x="10" y="463" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="rMb-St-vTZ" appends="YES" id="my8-rc-MVp"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-31" translatesAutoresizingMaskIntoConstraints="NO" id="k1l-KX-jJg">
+                                <rect key="frame" x="103" y="463" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="kc8-Gw-Ip4" appends="YES" id="FDF-eS-SeY"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-32" translatesAutoresizingMaskIntoConstraints="NO" id="AUn-np-oD3">
+                                <rect key="frame" x="196" y="463" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="kEq-NA-Nsh" appends="YES" id="FSB-rM-k7B"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-33" translatesAutoresizingMaskIntoConstraints="NO" id="XdF-fx-sat">
+                                <rect key="frame" x="289" y="463" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oB9-1F-1Hg" appends="YES" id="M3M-yP-Qol"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-40" translatesAutoresizingMaskIntoConstraints="NO" id="EZl-hM-Jno">
+                                <rect key="frame" x="10" y="556" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bPE-Pw-HZb" appends="YES" id="Vtf-GM-BxW"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-41" translatesAutoresizingMaskIntoConstraints="NO" id="YKa-Rc-GPE">
+                                <rect key="frame" x="103" y="556" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="pEA-gg-PTJ" appends="YES" id="8Tr-H2-mS6"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-42" translatesAutoresizingMaskIntoConstraints="NO" id="vyF-Xg-hzc">
+                                <rect key="frame" x="196" y="556" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Qp7-66-Oct" appends="YES" id="iqs-uR-aZB"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PistolPete-43" translatesAutoresizingMaskIntoConstraints="NO" id="Rti-Cy-uAN">
+                                <rect key="frame" x="289" y="556" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="EUw-RQ-nnt" appends="YES" id="zpw-4Z-xBh"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WY0-ty-eiF">
+                                <rect key="frame" x="94" y="687" width="217" height="37"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Shuffle">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="19"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="shuffleTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Isw-T0-HFG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ar-aB-V2Z">
+                                <rect key="frame" x="94" y="760" width="217" height="37"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Show Answer">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="19"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="showAnswerTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1m4-Jz-J3K"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="WY0-ty-eiF" firstAttribute="leading" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="78" id="B0N-h5-EhG"/>
+                            <constraint firstItem="LGg-hS-xVa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="BgM-5h-wFb"/>
+                            <constraint firstItem="F0s-1c-pwk" firstAttribute="top" secondItem="DnS-TU-rol" secondAttribute="bottom" constant="25" id="ORe-le-1FH"/>
+                            <constraint firstItem="F0s-1c-pwk" firstAttribute="top" secondItem="DnS-TU-rol" secondAttribute="bottom" constant="25" id="Q5n-yr-5Hk"/>
+                            <constraint firstItem="LGg-hS-xVa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="16" id="SLC-Mn-Fx2"/>
+                            <constraint firstItem="WY0-ty-eiF" firstAttribute="top" secondItem="F0s-1c-pwk" secondAttribute="bottom" constant="41" id="T8l-gV-OrH"/>
+                            <constraint firstItem="DnS-TU-rol" firstAttribute="top" secondItem="LGg-hS-xVa" secondAttribute="bottom" constant="20" id="V77-5a-7ty"/>
+                            <constraint firstItem="DnS-TU-rol" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XBN-yM-qku"/>
+                            <constraint firstItem="WY0-ty-eiF" firstAttribute="top" secondItem="F0s-1c-pwk" secondAttribute="bottom" constant="41" id="XgH-qB-zXV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DnS-TU-rol" secondAttribute="trailing" constant="104" id="do7-6L-6EA"/>
+                            <constraint firstItem="DnS-TU-rol" firstAttribute="top" secondItem="LGg-hS-xVa" secondAttribute="bottom" constant="20" id="g3S-hH-3IK"/>
+                            <constraint firstItem="0Ar-aB-V2Z" firstAttribute="top" secondItem="WY0-ty-eiF" secondAttribute="bottom" constant="36" id="lmO-Sf-sXh"/>
+                            <constraint firstItem="0Ar-aB-V2Z" firstAttribute="leading" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="78" id="mbc-ex-bkT"/>
+                            <constraint firstAttribute="trailing" secondItem="F0s-1c-pwk" secondAttribute="trailing" constant="11" id="nCa-bf-fdp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WY0-ty-eiF" secondAttribute="trailing" constant="66" id="s4q-lc-EPG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0Ar-aB-V2Z" secondAttribute="trailing" constant="66" id="uCb-Qf-hWg"/>
+                            <constraint firstItem="F0s-1c-pwk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="vXj-F1-Rtz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LGg-hS-xVa" secondAttribute="trailing" constant="10" id="vp2-zD-WQe"/>
+                            <constraint firstItem="0Ar-aB-V2Z" firstAttribute="top" secondItem="WY0-ty-eiF" secondAttribute="bottom" constant="36" id="w5v-lM-wlm"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="0Ar-aB-V2Z" secondAttribute="bottom" constant="21" id="zkR-eH-haq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cell00" destination="IZQ-yD-I2f" id="SSe-1A-idd"/>
+                        <outlet property="cell01" destination="A4z-5E-dEc" id="1Ef-Yo-tth"/>
+                        <outlet property="cell02" destination="PJ5-y4-668" id="B2u-o7-5p0"/>
+                        <outlet property="cell03" destination="Cag-IB-eYR" id="996-Os-hsg"/>
+                        <outlet property="cell10" destination="rdT-De-L1g" id="Jt5-Bq-VGx"/>
+                        <outlet property="cell11" destination="Qld-uO-FhK" id="Bai-hO-kfd"/>
+                        <outlet property="cell12" destination="iMw-x7-lcb" id="3ZY-ZC-SDg"/>
+                        <outlet property="cell13" destination="O76-tw-rpF" id="9iI-E9-nD1"/>
+                        <outlet property="cell20" destination="yOa-pm-nAI" id="esJ-q8-OA0"/>
+                        <outlet property="cell21" destination="anz-U9-3oc" id="o6P-7t-wo8"/>
+                        <outlet property="cell22" destination="Zkp-Xe-yTN" id="d0S-2C-gh1"/>
+                        <outlet property="cell23" destination="mbJ-ht-rrg" id="kfZ-bN-ge0"/>
+                        <outlet property="cell30" destination="0HB-Q4-IWi" id="AeI-Ip-ZcV"/>
+                        <outlet property="cell31" destination="k1l-KX-jJg" id="UWF-HQ-LMf"/>
+                        <outlet property="cell32" destination="AUn-np-oD3" id="kWs-wG-248"/>
+                        <outlet property="cell33" destination="XdF-fx-sat" id="dTf-LM-m2l"/>
+                        <outlet property="cell40" destination="EZl-hM-Jno" id="Bcj-ki-6Vn"/>
+                        <outlet property="cell41" destination="YKa-Rc-GPE" id="eCs-OL-9yo"/>
+                        <outlet property="cell42" destination="vyF-Xg-hzc" id="ybg-Ek-rfm"/>
+                        <outlet property="cell43" destination="Rti-Cy-uAN" id="nGI-bp-EMM"/>
+                        <outlet property="fullImage" destination="F0s-1c-pwk" id="uyy-QY-D3X"/>
+                        <outlet property="showHideAnswerClicked" destination="0Ar-aB-V2Z" id="uZH-xx-TEO"/>
+                        <outlet property="shuffleClicked" destination="WY0-ty-eiF" id="5to-cq-3fD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="J7M-h7-Aee">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="y0C-g3-7Yh"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="AHh-Nn-onG">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="tdX-Ch-8c5"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ei1-fV-y4k">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="jNO-Tk-jJb"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="gfM-Wy-e1e">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="tUH-fx-E0L"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="7FY-U4-fWM">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="brZ-uk-iac"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="AMu-ef-wV4">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="apj-Iq-g0o"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="jLt-F1-8WA">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="XTe-hm-ANJ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="cmi-kV-Ivh">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="L8S-Lp-0f9"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ZmW-TU-ULn">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="wcf-2d-x6j"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Gah-BL-L9Q">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="k1r-dS-R23"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="lGw-I5-bvX">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="IpV-jY-0kL"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Bzy-Ge-Dja">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="eZU-PG-JsV"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="rMb-St-vTZ">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="bKJ-qF-96h"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="kc8-Gw-Ip4">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="o80-PA-Avz"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="kEq-NA-Nsh">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="hWj-Oj-qhg"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="oB9-1F-1Hg">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="rDt-f9-h8v"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="bPE-Pw-HZb">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="9R6-5P-pxf"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="pEA-gg-PTJ">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="VMr-23-bMS"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Qp7-66-Oct">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="YSG-JS-RFL"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="EUw-RQ-nnt">
+                    <connections>
+                        <action selector="tapGestureHandle:" destination="BYZ-38-t0r" id="k5u-C8-Gsg"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="138.1679389312977" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PistolPete-00" width="36.666667938232422" height="31.333333969116211"/>
+        <image name="PistolPete-01" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-02" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-03" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-10" width="36.666667938232422" height="31.333333969116211"/>
+        <image name="PistolPete-11" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-12" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-13" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-20" width="36.666667938232422" height="31.333333969116211"/>
+        <image name="PistolPete-21" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-22" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-23" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-30" width="36.666667938232422" height="31.333333969116211"/>
+        <image name="PistolPete-31" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-32" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-33" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-40" width="480" height="270"/>
+        <image name="PistolPete-41" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-42" width="37" height="31.333333969116211"/>
+        <image name="PistolPete-43" width="37" height="31.333333969116211"/>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
